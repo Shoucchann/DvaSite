@@ -1,0 +1,133 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hotpink;
+}
+
+.bg-gold{
+    background-color: rgb(255, 97, 184);
+    color: #a70769;
+}
+.bg-rosa{
+    color: #d12b8c;
+}
+.bg-pink{
+    background-color: rgb(186, 91, 199);
+    color: #2f6baf; 
+}
+
+#container{
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+.container-green{
+    background-color: #fdd0eb;}
+.container-blue{
+        background-color: #ffe8f6;}
+.container-pink{
+            background-color: #cad4ff;}
+/* Estilos para o menu de navegação da Página Principal */
+.menu-blue, .menu-green, .menu-pink{
+    margin-bottom: 40px;
+}
+
+.menu-blue a .menu-green a .menu-pink a{
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+.menu-blue a{
+    color: deeppink; }
+.menu-green a{
+    color: #a020b1;}
+.menu-pink a{
+        color: #3c73c7;}
+
+.menu-blue a:hover{
+    text-decoration: underline;
+    color: indigo;
+}
+.menu-green a:hover{
+    text-decoration: underline;
+    color: rgb(79, 24, 116);
+}
+.menu-pink a:hover{
+    text-decoration: underline;
+    color: rgb(120, 140, 255);
+}
+/* Estilos para Imagem e texto */
+.image-text-wrapper{
+    display: flex; /* Define o Layout como flexível */
+    gap: 20px; /* Espaçamento entre os itens flex */
+    align-items: start; /* Alinha os ites ao topo */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    width: 30%; /* Define a largura e altura */
+}
+
+p{
+    text-align: justify;
+}
+
+/* Estilos para a Tabela */
+table{
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+thead{
+    background-color: rgb(255, 161, 224);
+    color: white;
+}
+.antifragile{
+    background-color: #ba66cf;
+    color: #ffffff;
+}
+
+th, td{
+    border: 1px solid rgb(255, 176, 229);
+    text-align: center;
+    padding: 8px;
+}
+
+tbody tr:nthchild(even){
+    background-color: rgba(255, 122, 204, 0.603);
+    
+}
+
+tbody tr:hover{
+    background-color: #ff8dcf;
+    color: white;
+} 
+.DeslumbranteC tr:hover{
+    background-color: #508ae0;
+    color: #ffffff;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.social-links, a{ 
+    margin-right: 10px
+}
+.social-links i{
+    font-size: 36px;
+    margin-top: 15px;
+    color: rgb(252, 82, 186);
+}
+.social-links a:hover i{
+    color: #5e0046;
+}
